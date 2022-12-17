@@ -179,6 +179,7 @@
     width: 100%;
     height: 93vh;
     background-color: #a9a9a926;
+    background-image:
 }
 
 /* navbar */
@@ -223,10 +224,19 @@
     position: relative;
     z-index: 0;
     font-family: 'Roboto Slab', serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./image/ecommerce-co.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height: 450px;
+    width: 100%;
+
+
 }
 
 .home .img {
     flex: 1 1 400px;
+    margin-top: 20px;
 }
 
 .home .img img {
@@ -241,7 +251,7 @@
 .content h3 {
     margin-left: 70px;
     font-size: 50px;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px rgb(245, 242, 242);
     color: #000000;
     font-weight: bold;
 }
@@ -266,7 +276,7 @@
 }
 
 .content #shopnow:hover {
-    background-color: #1c1c50;
+    background-color: #000000;
     color: white;
 }
 
@@ -325,7 +335,7 @@
 }
 
 #top-cards h5 {
-    color: #1c1c50;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -335,14 +345,14 @@
     font-weight: bold;
     letter-spacing: 3px;
     background: transparent;
-    color: #1c1c50;
-    border: 2px solid #1c1c50;
+    color: #000000;
+    border: 2px solid #000000;
     transition: 0.5s ease;
     cursor: pointer;
 }
 
 #top-cards button:hover {
-    background-color: #1c1c50;
+    background-color: #000000;
     color: white;
 }
 
@@ -359,6 +369,7 @@
 .banner .content {
     text-align: center;
     padding-top: 100px;
+
 }
 
 .banner .content h1 {
@@ -384,7 +395,7 @@
 }
 
 #bannerbtn button:hover {
-    background-color: #1c1c50;
+    background-color: #000000;
     border: none;
 }
 
@@ -395,6 +406,7 @@
     height: 50vh;
     margin-top: 50px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./image/banner2.jpg);
+
 }
 
 .banner2 .content2 {
@@ -425,7 +437,7 @@
 }
 
 #bannerbtn2 button:hover {
-    background-color: #1c1c50;
+    background-color: #000000;
     border: none;
 }
 
@@ -435,6 +447,7 @@
 #product-cards {
     font-family: 'Roboto Slab', serif;
     margin-top: 100px;
+
 }
 
 #product-cards .card {
@@ -443,13 +456,13 @@
 
 #product-cards h1 {
     margin-top: 30px;
-    color: #1c1c50;
+    color: #000000;
     text-shadow: 1px 1px 1px black;
 }
 
 #product-cards h3 {
     letter-spacing: 3px;
-    color: #1c1c50;
+    color: #000000;
     text-shadow: 0px 1px 1px black;
     font-weight: bold;
 }
@@ -472,16 +485,16 @@
     margin-top: 30px;
     width: 200px;
     height: 32px;
-    color: #1c1c50;
+    color: #000000;
     letter-spacing: 5px;
     font-weight: bold;
     background: transparent;
-    border: 2px solid #1c1c50;
+    border: 2px solid #000000;
     transition: 0.5s ease;
 }
 
 #viewmorebtn:hover {
-    background-color: #1c1c50;
+    background-color: #000000;
     color: white;
 }
 
@@ -499,7 +512,7 @@
 
 #offer i {
     font-size: 60px;
-    color: #1c1c50;
+    color: #000000;
 }
 
 /* offer */
@@ -509,13 +522,13 @@
     padding: 0 0 30px 0;
     color: #d0d0d0;
     font-size: 14px;
-    background: #1c1c50;
+    background: #000000;
     font-family: 'Roboto Slab', serif;
 }
 
 #footer .footer-top {
     padding: 60px 0 30px;
-    background: #1c1c50;
+    background: #000000;
     color: white;
 }
 
@@ -602,7 +615,7 @@ html {
 
 .arrow {
     position: fixed;
-    background-color: #1c1c50;
+    background-color: #ffffff;
     border-radius: 50px;
     height: 50px;
     bottom: 40px;
@@ -620,7 +633,7 @@ html {
 }
 
 #side1 {
-    background-color: #1c1c50;
+    background-color: #000000;
     height: 76vh;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -664,7 +677,7 @@ html {
 
 #side2 h3 {
     margin-top: 50px;
-    color: #1c1c50;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -697,7 +710,7 @@ html {
     width: 200px;
     height: 32px;
     color: white;
-    background-color: #1c1c50;
+    background-color: #000000;
     border: none;
     font-weight: bold;
 }
@@ -724,7 +737,7 @@ html {
 #about h1 {
     text-align: center;
     font-weight: bold;
-    color: #1c1c50;
+    color: #000000;
 }
 
 /* about */
@@ -735,7 +748,7 @@ html {
 }
 
 #contact h1 {
-    color: #1c1c50;
+    color: #000000;
     text-shadow: 0px 0px 1px black;
 }
 
@@ -749,7 +762,7 @@ html {
     margin-top: 10px;
     margin-left: 10px;
     font-size: 15px;
-    color: #1c1c50;
+    color: #000000;
     font-weight: bold;
     letter-spacing: 3px;
 }
@@ -759,7 +772,7 @@ html {
     margin-top: 10px;
     letter-spacing: 3px;
     font-weight: bold;
-    color: #1c1c50;
+    color: #000000;
 }
 
 #messagebtn button {
@@ -767,15 +780,15 @@ html {
     width: 200px;
     height: 33px;
     background: transparent;
-    border: 2px solid #1c1c50;
-    color: #1c1c50;
+    border: 2px solid #000000;
+    color: #000000;
     font-weight: bold;
     letter-spacing: 3px;
     transition: 0.5s ease;
 }
 
 #messagebtn button:hover {
-    background-color: #1c1c50;
+    background-color: #000000;
     color: white;
 }
 
