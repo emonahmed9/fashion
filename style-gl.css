@@ -226,7 +226,7 @@
     height: 60vh;
     margin-top: 5px;
     border-radius: 5px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./image/shous/nkbc.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./image/glass/cover-gls-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -237,7 +237,7 @@
 }
 
 .banner2 .content2 h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px black;
     letter-spacing: 3px;
 }

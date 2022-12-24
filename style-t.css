@@ -214,186 +214,18 @@
 }
 
 /* navbar */
-/* home content */
-.home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
-    z-index: 0;
-    font-family: 'Roboto Slab', serif;
-}
 
-.home .img {
-    flex: 1 1 400px;
-}
-
-.home .img img {
-    width: 100%;
-}
-
-.home .content {
-    flex: 1 1 400px;
-    margin-top: 30px;
-}
-
-.content h3 {
-    margin-left: 70px;
-    font-size: 50px;
-    text-shadow: 1px 1px 1px black;
-    color: #000000;
-    font-weight: bold;
-}
-
-.content h3 span {
-    font-size: 40px;
-}
-
-.content p {
-    margin-left: 70px;
-    color: black;
-}
-
-.content #shopnow {
-    margin-left: 70px;
-    width: 200px;
-    height: 38px;
-    border: 2px solid black;
-    font-weight: bold;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-
-.content #shopnow:hover {
-    background-color: #000000;
-    color: white;
-}
-
-@media screen and (max-width:800px) {
-    .content h3 {
-        margin-left: 50px;
-        font-size: 40px;
-    }
-
-    .content p {
-        margin-left: 50px;
-    }
-
-    .content #shopnow {
-        margin-left: 50px;
-    }
-}
-
-@media screen and (max-width:570px) {
-    .content h3 {
-        margin-left: 20px;
-    }
-
-    .content p {
-        margin-left: 20px;
-    }
-
-    .content #shopnow {
-        margin-left: 20px;
-    }
-}
-
-@media screen and (max-width:799px) {
-    .home-section {
-        height: 150vh;
-    }
-}
-
-@media screen and (max-width:550px) {
-    .home-section {
-        height: 100vh;
-    }
-}
-
-/* home content */
 /* home section */
 
-/* top cards */
-#top-cards {
-    margin-top: 30px;
-    font-family: 'Roboto Slab', serif;
-}
 
-#top-cards .card img {
-    height: 60vh;
-}
 
-#top-cards h5 {
-    color: #000000;
-    font-weight: bold;
-}
 
-#top-cards button {
-    width: 150px;
-    height: 33px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    background: transparent;
-    color: #000000;
-    border: 2px solid #000000;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-
-#top-cards button:hover {
-    background-color: #000000;
-    color: white;
-}
-
-/* top cards */
-
-/* banner */
-.banner {
-    width: 100%;
-    height: 50vh;
-    margin-top: 50px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./image/banner.jpg);
-}
-
-.banner .content {
-    text-align: center;
-    padding-top: 100px;
-}
-
-.banner .content h1 {
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    letter-spacing: 3px;
-}
-
-.banner .content p {
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    letter-spacing: 3px;
-}
-
-#bannerbtn button {
-    width: 150px;
-    height: 38px;
-    background: transparent;
-    color: white;
-    border: 2px solid white;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-
-#bannerbtn button:hover {
-    background-color: #050505;
-    border: none;
-}
-
-/* banner */
 /* banner2 */
 .banner2 {
     width: 100%;
     height: 60vh;
-    margin-top: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./image/t-shart/0000551.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -466,26 +298,9 @@
     color: rgb(255, 187, 0);
 }
 
-#viewmorebtn {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    text-decoration: none;
-    margin-top: 30px;
-    width: 200px;
-    height: 32px;
-    color: #000000;
-    letter-spacing: 5px;
-    font-weight: bold;
-    background: transparent;
-    border: 2px solid #000000;
-    transition: 0.5s ease;
-}
 
-#viewmorebtn:hover {
-    background-color: #000000;
-    color: white;
-}
+
+
 
 /* product cards */
 
@@ -495,9 +310,6 @@
 
 
 /* offer */
-#offer {
-    margin-top: 50px;
-}
 
 #offer i {
     font-size: 60px;
@@ -604,7 +416,7 @@ html {
 
 .arrow {
     position: fixed;
-    background-color: #ffffff;
+    background-color: #fdfbfb;
     border-radius: 50px;
     height: 50px;
     bottom: 40px;
@@ -613,172 +425,3 @@ html {
     align-items: center;
     line-height: 50px;
 }
-
-/* login */
-.login {
-    width: 50%;
-    margin: 20px;
-    font-family: 'Roboto Slab', serif;
-}
-
-#side1 {
-    background-color: #000000;
-    height: 76vh;
-    border-radius: 5px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-#side1 h3 {
-    color: white;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px black;
-    margin-top: 200px;
-    align-items: center;
-    text-align: center;
-}
-
-#side1 p {
-    color: white;
-    font-weight: bold;
-    align-items: center;
-    text-align: center;
-}
-
-#btn {
-    align-items: center;
-    text-align: center;
-    border: 2px solid white;
-    border-radius: 10px;
-}
-
-#btn a {
-    text-decoration: none;
-    color: white;
-}
-
-#side2 {
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    align-items: center;
-    text-align: center;
-}
-
-#side2 h3 {
-    margin-top: 50px;
-    color: #000000;
-    font-weight: bold;
-}
-
-#side2 .inp {
-    margin-top: 32px;
-}
-
-#side2 input {
-    width: 500px;
-    margin-top: 20px;
-    height: 36px;
-    align-items: center;
-}
-
-#side2 p {
-    margin-top: 20px;
-    cursor: pointer;
-}
-
-#side2 .icons i {
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-#login {
-    margin-top: 10px;
-}
-
-#login button {
-    width: 200px;
-    height: 32px;
-    color: white;
-    background-color: #000000;
-    border: none;
-    font-weight: bold;
-}
-
-@media screen and (max-width:992px) {
-    #side2 input {
-        width: 300px;
-    }
-}
-
-@media screen and (max-width:330x) {
-    #side2 input {
-        width: 200px;
-    }
-}
-
-/* login */
-
-/* about */
-#about {
-    margin-top: 50px;
-}
-
-#about h1 {
-    text-align: center;
-    font-weight: bold;
-    color: #000000;
-}
-
-/* about */
-
-/* contact */
-#contact {
-    margin-top: 50px;
-}
-
-#contact h1 {
-    color: #000000;
-    text-shadow: 0px 0px 1px black;
-}
-
-#contact .card {
-    height: 80px;
-    margin-top: 20px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-#contact .card i {
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 15px;
-    color: #000000;
-    font-weight: bold;
-    letter-spacing: 3px;
-}
-
-#contact .card h6 {
-    margin-left: 10px;
-    margin-top: 10px;
-    letter-spacing: 3px;
-    font-weight: bold;
-    color: #000000;
-}
-
-#messagebtn button {
-    margin-top: 30px;
-    width: 200px;
-    height: 33px;
-    background: transparent;
-    border: 2px solid #000000;
-    color: #000000;
-    font-weight: bold;
-    letter-spacing: 3px;
-    transition: 0.5s ease;
-}
-
-#messagebtn button:hover {
-    background-color: #000000;
-    color: white;
-}
-
-/* contact */
